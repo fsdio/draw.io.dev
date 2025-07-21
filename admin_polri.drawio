@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.1">
+  <diagram name="Halaman-1" id="XqosbjUoIenjFJBg-KbU">
+    <mxGraphModel dx="2084" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-1" value="LOGIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-3" value="WEB" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="720" height="970" as="geometry">
+            <mxRectangle x="320" y="40" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-5" value="Beranda" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-3">
+          <mxGeometry x="10" y="30" width="200" height="190" as="geometry">
+            <mxRectangle x="10" y="30" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-6" value="Total Anggota" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-5">
+          <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-7" value="Total Satuan Kerja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-5">
+          <mxGeometry x="10" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-11" value="&lt;div&gt;Statistik Login - Semua Anggota&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-5">
+          <mxGeometry x="10" y="110" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-12" value="Detail Satuan Kerja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-5">
+          <mxGeometry x="10" y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-13" value="Anggota" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-3">
+          <mxGeometry x="10" y="230" width="200" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-14" value="Update Satker Batch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-13">
+          <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-15" value="Reset Password Batch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-13">
+          <mxGeometry x="10" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-16" value="&lt;div&gt;Form Data&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-13">
+          <mxGeometry x="10" y="190" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-17" value="Detail Data Table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-13">
+          <mxGeometry x="10" y="230" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-18" value="Export / Import" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-13">
+          <mxGeometry x="10" y="110" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-19" value="Tambah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-13">
+          <mxGeometry x="10" y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-20" value="Admin Satker" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-3">
+          <mxGeometry x="220" y="30" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-21" value="Search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-20">
+          <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-22" value="Filter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-20">
+          <mxGeometry x="10" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-25" value="Detail Data Table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-20">
+          <mxGeometry x="10" y="110" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-27" value="Satuan Kerja" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-3">
+          <mxGeometry x="220" y="190" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-28" value="Export" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-27">
+          <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-29" value="Tambah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-27">
+          <mxGeometry x="10" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-30" value="Search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-27">
+          <mxGeometry x="10" y="110" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-31" value="Detail Data Table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-27">
+          <mxGeometry x="10" y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-32" value="Pengaturan" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-3">
+          <mxGeometry x="430" y="30" width="280" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-37" value="Kata Sandi" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-32">
+          <mxGeometry x="10" y="30" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-38" value="Form&amp;nbsp;Kebijakan Kata Sandi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-37">
+          <mxGeometry x="10" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-39" value="Form&amp;nbsp;Kebijakan Penguncian Kata Sandi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-37">
+          <mxGeometry x="10" y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-40" value="Pengaturan Notifikasi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-37">
+          <mxGeometry x="10" y="110" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-42" value="Super Admin" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-32">
+          <mxGeometry x="10" y="190" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-43" value="Tambah" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-42">
+          <mxGeometry x="10" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-44" value="Search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-42">
+          <mxGeometry x="10" y="70" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-45" value="Detail Data Table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-42">
+          <mxGeometry x="10" y="110" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-46" value="Notifikasi Pensiun" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-32">
+          <mxGeometry x="10" y="350" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-47" value="Pengaturan Notifikasi Pensiun" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-46">
+          <mxGeometry x="10" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-50" value="Log Aktifitas" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-3">
+          <mxGeometry x="220" y="390" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-51" value="Filter Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-50">
+          <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-52" value="Search" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-50">
+          <mxGeometry x="10" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7VsVqGOLsM9ccXyT8c6a-53" value="Detail Data Table ( No Edit )" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7VsVqGOLsM9ccXyT8c6a-50">
+          <mxGeometry x="10" y="110" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
