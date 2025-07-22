@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6" pages="2">
   <diagram name="Halaman-1" id="0xkd0_zbIvf2wIhmGBbi">
     <mxGraphModel dx="1869" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,61 @@
         </mxCell>
         <mxCell id="93PrXyJmW7tbFm8o_D-c-23" value="BackEnd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Salinan Halaman-1" id="-R6LEJHSf_SSL1vjvPfM">
+    <mxGraphModel dx="1042" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-0" />
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-1" parent="nZ4cNKCgn_CHu_Dmypmx-0" />
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nZ4cNKCgn_CHu_Dmypmx-1" source="nZ4cNKCgn_CHu_Dmypmx-6" target="nZ4cNKCgn_CHu_Dmypmx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-3" value="Auth" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nZ4cNKCgn_CHu_Dmypmx-2">
+          <mxGeometry x="-0.08" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-6" value="Firewall" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nZ4cNKCgn_CHu_Dmypmx-1">
+          <mxGeometry x="280" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nZ4cNKCgn_CHu_Dmypmx-1" source="nZ4cNKCgn_CHu_Dmypmx-11" target="nZ4cNKCgn_CHu_Dmypmx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-8" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nZ4cNKCgn_CHu_Dmypmx-7">
+          <mxGeometry x="-0.18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-11" value="PrivacyIdea" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nZ4cNKCgn_CHu_Dmypmx-1">
+          <mxGeometry x="40" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nZ4cNKCgn_CHu_Dmypmx-1" source="nZ4cNKCgn_CHu_Dmypmx-16" target="nZ4cNKCgn_CHu_Dmypmx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-13" value="Enroll User" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nZ4cNKCgn_CHu_Dmypmx-12">
+          <mxGeometry x="-0.03" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="nZ4cNKCgn_CHu_Dmypmx-1" source="nZ4cNKCgn_CHu_Dmypmx-16" target="nZ4cNKCgn_CHu_Dmypmx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-15" value="Penyimpanan&lt;br&gt;Akun" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nZ4cNKCgn_CHu_Dmypmx-14">
+          <mxGeometry x="-0.16" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-16" value="Radius" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nZ4cNKCgn_CHu_Dmypmx-1">
+          <mxGeometry x="280" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-17" value="LDAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nZ4cNKCgn_CHu_Dmypmx-1">
+          <mxGeometry x="280" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nZ4cNKCgn_CHu_Dmypmx-18" value="OTP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nZ4cNKCgn_CHu_Dmypmx-1">
+          <mxGeometry x="40" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
