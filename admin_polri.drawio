@@ -151,11 +151,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DjxgRaAiF9pDD5FH2beJ" name="high-class-diagram">
-    <mxGraphModel dx="1924" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1869" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="h93mqvkhBPS62E_pyWDb-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-610" y="-440" width="380" height="400" as="geometry" />
         </mxCell>
         <mxCell id="p6Ga0_kYFzvnGCnmTtnK-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -362,46 +362,46 @@
         <mxCell id="p6Ga0_kYFzvnGCnmTtnK-65" value="&lt;b&gt;Legend&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="-30" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h93mqvkhBPS62E_pyWDb-3" target="h93mqvkhBPS62E_pyWDb-1">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="h93mqvkhBPS62E_pyWDb-3" target="h93mqvkhBPS62E_pyWDb-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-6" value="Pengambilan Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h93mqvkhBPS62E_pyWDb-4">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-6" value="Pengambilan Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="h93mqvkhBPS62E_pyWDb-4" vertex="1" connectable="0">
           <mxGeometry x="-0.112" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="h93mqvkhBPS62E_pyWDb-1" source="h93mqvkhBPS62E_pyWDb-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-480" y="-264" as="sourcePoint" />
             <mxPoint x="-360" y="-264" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-7" value="Sinkron Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h93mqvkhBPS62E_pyWDb-5">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-7" value="Sinkron Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="h93mqvkhBPS62E_pyWDb-5" vertex="1" connectable="0">
           <mxGeometry x="0.0772" relative="1" as="geometry">
-            <mxPoint x="-7" as="offset" />
+            <mxPoint x="-70" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="h93mqvkhBPS62E_pyWDb-1" target="h93mqvkhBPS62E_pyWDb-2">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="h93mqvkhBPS62E_pyWDb-1" target="h93mqvkhBPS62E_pyWDb-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-11" value="Update Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h93mqvkhBPS62E_pyWDb-10">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-11" value="Update Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="h93mqvkhBPS62E_pyWDb-10" vertex="1" connectable="0">
           <mxGeometry x="0.0596" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-1" value="Mail Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-1" value="Mail Management" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-360" y="-280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h93mqvkhBPS62E_pyWDb-2" target="h93mqvkhBPS62E_pyWDb-8">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="h93mqvkhBPS62E_pyWDb-8" target="h93mqvkhBPS62E_pyWDb-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-2" value="Zimbra" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-2" value="Zimbra" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-600" y="-280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-3" value="SIPP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-3" value="SIPP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-360" y="-110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h93mqvkhBPS62E_pyWDb-8" value="OpenLDAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="h93mqvkhBPS62E_pyWDb-8" value="OpenLDAP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-600" y="-430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
