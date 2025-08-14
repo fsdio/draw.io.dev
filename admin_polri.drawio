@@ -583,12 +583,6 @@
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-2" value="MAIL MANAGEMENT APP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="-120" width="1050" height="1410" as="geometry" />
         </mxCell>
-        <mxCell id="RiPmzJiSrTJEIzSwLgu8-3" value="FE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
-          <mxGeometry y="30" width="1040" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="pROw6jxa3Vd1qCoNGvR_-1" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-3">
-          <mxGeometry x="40" y="10" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-4" value="BE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
           <mxGeometry y="280" width="1040" height="390" as="geometry" />
         </mxCell>
@@ -749,7 +743,7 @@
           <mxGeometry x="10" y="290" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-10" value="EKTERNAL" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
-          <mxGeometry y="680" width="760" height="200" as="geometry" />
+          <mxGeometry y="705" width="1040" height="210" as="geometry" />
         </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-11" value="SIPP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-10">
           <mxGeometry x="30" width="200" height="200" as="geometry" />
@@ -768,6 +762,18 @@
         </mxCell>
         <mxCell id="vHhoJbSVgUudstUeUXKh-5" value="Data LDAP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-13">
           <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vHhoJbSVgUudstUeUXKh-6" value="Database" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
+          <mxGeometry x="840" y="30" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vHhoJbSVgUudstUeUXKh-7" value="&lt;b&gt;DATA&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vHhoJbSVgUudstUeUXKh-6">
+          <mxGeometry x="10" y="40" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vHhoJbSVgUudstUeUXKh-9" value="FronEnd" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
+          <mxGeometry x="10" y="30" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vHhoJbSVgUudstUeUXKh-10" value="&lt;b&gt;WEB&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vHhoJbSVgUudstUeUXKh-9">
+          <mxGeometry x="10" y="40" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
