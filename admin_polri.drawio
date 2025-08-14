@@ -576,12 +576,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XCWGy0Okm9NWG-sBt6QL" name="tech-arsitektur-service">
-    <mxGraphModel dx="992" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1389" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-2" value="MAIL MANAGEMENT APP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="-120" width="1340" height="1120" as="geometry" />
+          <mxGeometry x="40" y="-120" width="1050" height="1410" as="geometry" />
         </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-3" value="FE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
           <mxGeometry y="30" width="1040" height="250" as="geometry" />
@@ -590,16 +590,16 @@
           <mxGeometry x="40" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-4" value="BE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
-          <mxGeometry y="280" width="1150" height="840" as="geometry" />
+          <mxGeometry y="280" width="1040" height="390" as="geometry" />
         </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-7" value="MM-AUTH-SERVICE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-4">
-          <mxGeometry x="30" width="200" height="200" as="geometry" />
+          <mxGeometry x="30" width="200" height="380" as="geometry" />
         </mxCell>
         <mxCell id="aC7-BZvcRC30JLTnXkMR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-7">
           <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-8" value="MM-USER-SERVICE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-4">
-          <mxGeometry x="230" width="580" height="740" as="geometry" />
+          <mxGeometry x="230" width="580" height="380" as="geometry" />
         </mxCell>
         <mxCell id="cuaERBLuZkeMrbovrIZi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
           <mxGeometry x="10" y="30" width="180" height="150" as="geometry" />
@@ -641,7 +641,7 @@
           <mxGeometry x="210" y="210" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XTZooyeIxbZy2zmxX77F-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
-          <mxGeometry x="10" y="190" width="180" height="260" as="geometry" />
+          <mxGeometry x="10" y="190" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XTZooyeIxbZy2zmxX77F-2" value="satker/export" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
           <mxGeometry x="20" y="220" width="160" height="20" as="geometry" />
@@ -689,25 +689,25 @@
           <mxGeometry x="420" y="160" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gbZhUTU34ASQX5sl8l2P-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
-          <mxGeometry x="200" y="280" width="180" height="120" as="geometry" />
+          <mxGeometry x="200" y="250" width="210" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="gbZhUTU34ASQX5sl8l2P-2" value="/sync-zimbra" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
-          <mxGeometry x="210" y="310" width="120" height="20" as="geometry" />
+        <mxCell id="gbZhUTU34ASQX5sl8l2P-2" value="zimbra/sync" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
+          <mxGeometry x="210" y="280" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gbZhUTU34ASQX5sl8l2P-3" value="/validate-sync-zimbra" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
-          <mxGeometry x="210" y="340" width="140" height="20" as="geometry" />
+        <mxCell id="gbZhUTU34ASQX5sl8l2P-3" value="zimbra/validate-sync" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
+          <mxGeometry x="210" y="310" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gbZhUTU34ASQX5sl8l2P-4" value="/manage-role" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
-          <mxGeometry x="210" y="370" width="140" height="20" as="geometry" />
+        <mxCell id="gbZhUTU34ASQX5sl8l2P-4" value="zimbra/manage-role" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
+          <mxGeometry x="216" y="340" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="gbZhUTU34ASQX5sl8l2P-5" value="Sync To Zimbra" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
-          <mxGeometry x="200" y="280" width="180" height="30" as="geometry" />
+        <mxCell id="gbZhUTU34ASQX5sl8l2P-5" value="Sync To Zimbra biki sebagai service" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
+          <mxGeometry x="200" y="250" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O93xy12zjGi7EwqUiaGB-2" value="anggota/update-satker" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
           <mxGeometry x="210" y="60" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-9" value="MM-MAIL-SERVICE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
-          <mxGeometry x="810" y="280" width="340" height="500" as="geometry" />
+          <mxGeometry x="810" y="280" width="220" height="380" as="geometry" />
         </mxCell>
         <mxCell id="Kr_iOO7R4CtbcUEvWyEP-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-9">
           <mxGeometry x="10" y="30" width="180" height="120" as="geometry" />
@@ -748,17 +748,26 @@
         <mxCell id="_CFkttZVS0aF17nrAsFH-4" value="Notifikasi Pensiun" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-9">
           <mxGeometry x="10" y="290" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RiPmzJiSrTJEIzSwLgu8-10" value="EKTERNAL" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="33" y="-360" width="760" height="200" as="geometry" />
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-10" value="EKTERNAL" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
+          <mxGeometry y="680" width="760" height="200" as="geometry" />
         </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-11" value="SIPP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-10">
           <mxGeometry x="30" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="vHhoJbSVgUudstUeUXKh-1" value="Data SIPP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-11">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-12" value="ZIMBRA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-10">
           <mxGeometry x="230" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="vHhoJbSVgUudstUeUXKh-2" value="Data ZIMBRA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-12">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="RiPmzJiSrTJEIzSwLgu8-13" value="LDAP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-10">
           <mxGeometry x="430" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vHhoJbSVgUudstUeUXKh-5" value="Data LDAP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-13">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
