@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0" pages="5">
   <diagram name="flow-app" id="XqosbjUoIenjFJBg-KbU">
-    <mxGraphModel dx="1489" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1303" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -580,6 +580,45 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-2" value="MAIL MANAGEMENT APP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-3" value="FE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
+          <mxGeometry y="30" width="760" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-5" value="&lt;b&gt;MM-AUTH-SERVICE&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-3">
+          <mxGeometry x="40" y="10" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-4" value="BE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-2">
+          <mxGeometry y="120" width="760" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-7" value="MM-AUTH-SERVICE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-4">
+          <mxGeometry x="30" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AT5FZmXxnkuyp_cwp30i-1" value="&lt;b&gt;Sync Data SIPP&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-7">
+          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-8" value="MM-USER-SERVICE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-4">
+          <mxGeometry x="230" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AT5FZmXxnkuyp_cwp30i-2" value="&lt;b&gt;Sync Data SIPP&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-8">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-9" value="MM-MAIL-SERVICE" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-4">
+          <mxGeometry x="430" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-10" value="EKTERNAL" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="760" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-11" value="SIPP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-10">
+          <mxGeometry x="30" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-12" value="ZIMBRA" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-10">
+          <mxGeometry x="230" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RiPmzJiSrTJEIzSwLgu8-13" value="LDAP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="RiPmzJiSrTJEIzSwLgu8-10">
+          <mxGeometry x="430" width="200" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
