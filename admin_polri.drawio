@@ -1203,27 +1203,10 @@
           <mxGeometry x="730" y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
-          <mxGeometry x="910" y="30" width="160" height="120" as="geometry" />
+          <mxGeometry x="910" y="30" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-32" value="/search" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
+        <mxCell id="9FyoQiz8tmHrl8wBYFHw-32" value="/super-admin" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="920" y="60" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-33" value="/tambah" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
-          <mxGeometry x="920" y="90" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="9FyoQiz8tmHrl8wBYFHw-6" source="9FyoQiz8tmHrl8wBYFHw-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="620" y="-180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1080" y="125" />
-              <mxPoint x="1080" y="-40" />
-              <mxPoint x="600" y="-40" />
-              <mxPoint x="600" y="-180" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-35" value="/get-data-super-admin" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
-          <mxGeometry x="920" y="120" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-36" value="Super Admin" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="910" y="30" width="160" height="30" as="geometry" />
@@ -1529,16 +1512,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1310" y="345" />
-              <mxPoint x="1310" y="240" />
-              <mxPoint x="830" y="240" />
-              <mxPoint x="830" y="100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9FyoQiz8tmHrl8wBYFHw-2" source="9FyoQiz8tmHrl8wBYFHw-33" target="9FyoQiz8tmHrl8wBYFHw-72">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="375" />
               <mxPoint x="1310" y="240" />
               <mxPoint x="830" y="240" />
               <mxPoint x="830" y="100" />
