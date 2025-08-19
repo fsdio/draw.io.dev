@@ -1129,7 +1129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="fix tech-arsitektur-service" id="hUzdl7C6oL827Y31RSxE">
-    <mxGraphModel dx="1042" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="1556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-0" />
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-1" parent="9FyoQiz8tmHrl8wBYFHw-0" />
@@ -1151,16 +1151,16 @@
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="10" y="30" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-8" value="dashboard/total-anggota" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
+        <mxCell id="9FyoQiz8tmHrl8wBYFHw-8" value="/dashboard/total-anggota" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="20" y="60" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-9" value="dashboard/total-satker" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
+        <mxCell id="9FyoQiz8tmHrl8wBYFHw-9" value="/dashboard/total-satker" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="20" y="90" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-10" value="dashboard/total-login" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
+        <mxCell id="9FyoQiz8tmHrl8wBYFHw-10" value="/dashboard/total-login" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="20" y="120" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-11" value="dashboard/detail-satker" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
+        <mxCell id="9FyoQiz8tmHrl8wBYFHw-11" value="/dashboard/detail-satker" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="20" y="150" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-12" value="Dashboard" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
@@ -1188,19 +1188,13 @@
           <mxGeometry x="230" y="210" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
-          <mxGeometry x="10" y="190" width="180" height="180" as="geometry" />
+          <mxGeometry x="10" y="190" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-21" value="satker/export" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
+        <mxCell id="9FyoQiz8tmHrl8wBYFHw-21" value="/satker/export" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="20" y="220" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-22" value="satker/tambah" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
+        <mxCell id="9FyoQiz8tmHrl8wBYFHw-22" value="/satker" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="20" y="250" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-23" value="satker/search" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
-          <mxGeometry x="20" y="280" width="160" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-24" value="satker/get-data-satker" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
-          <mxGeometry x="20" y="310" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-25" value="Satuan Kerja" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" vertex="1" parent="9FyoQiz8tmHrl8wBYFHw-6">
           <mxGeometry x="10" y="190" width="180" height="30" as="geometry" />
@@ -1420,22 +1414,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="540" />
-              <mxPoint x="430" y="100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9FyoQiz8tmHrl8wBYFHw-2" source="9FyoQiz8tmHrl8wBYFHw-23" target="9FyoQiz8tmHrl8wBYFHw-72">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="430" y="570" />
-              <mxPoint x="430" y="100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9FyoQiz8tmHrl8wBYFHw-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9FyoQiz8tmHrl8wBYFHw-2" source="9FyoQiz8tmHrl8wBYFHw-24" target="9FyoQiz8tmHrl8wBYFHw-72">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="430" y="600" />
               <mxPoint x="430" y="100" />
             </Array>
           </mxGeometry>
