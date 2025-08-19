@@ -1354,9 +1354,6 @@
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-53" value="/notification/message/form-kebijakan-penguncian" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" parent="9FyoQiz8tmHrl8wBYFHw-43" vertex="1">
           <mxGeometry x="20" y="220" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-rcO6YW3byu_swPe8LPN-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9FyoQiz8tmHrl8wBYFHw-43" source="9FyoQiz8tmHrl8wBYFHw-54" target="9FyoQiz8tmHrl8wBYFHw-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="9FyoQiz8tmHrl8wBYFHw-54" value="Kata Sandi For Message" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=10;" parent="9FyoQiz8tmHrl8wBYFHw-43" vertex="1">
           <mxGeometry x="10" y="160" width="180" height="30" as="geometry" />
         </mxCell>
