@@ -25,6 +25,12 @@
         <mxCell id="FQ2YbZzHv3mOqYBIHx7K-6" value="&lt;span id=&quot;docs-internal-guid-8730eed6-7fff-fa82-aec3-10e13a9a0900&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;https://api-bsre.bssn.go.id/&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="510" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-9" value="- Timeout 30detik" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-10" value="- Timeout 60detik" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
