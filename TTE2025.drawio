@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="Halaman-1" id="bUO4JxUx3Ye-z49C8RaQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FQ2YbZzHv3mOqYBIHx7K-1" target="FQ2YbZzHv3mOqYBIHx7K-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-1" value="Tim SKCK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FQ2YbZzHv3mOqYBIHx7K-2" target="FQ2YbZzHv3mOqYBIHx7K-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-2" value="SKCK Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FQ2YbZzHv3mOqYBIHx7K-4" target="FQ2YbZzHv3mOqYBIHx7K-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-4" value="&lt;span id=&quot;docs-internal-guid-8730eed6-7fff-fa82-aec3-10e13a9a0900&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;10.200.210.235&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQ2YbZzHv3mOqYBIHx7K-6" value="&lt;span id=&quot;docs-internal-guid-8730eed6-7fff-fa82-aec3-10e13a9a0900&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;https://api-bsre.bssn.go.id/&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="190" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
