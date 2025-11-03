@@ -167,6 +167,15 @@
         <mxCell id="ptiIKL5mUzUop6q2zIbg-2" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Teknikal Code&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="1040" width="680" height="640" as="geometry" />
         </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-3" value="Tab Data Umum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-4" value="Tab Data Investor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-5" value="Tab Data Kinerja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
