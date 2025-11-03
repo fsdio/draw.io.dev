@@ -165,16 +165,43 @@
           <mxGeometry x="1010" y="640" width="330" height="360" as="geometry" />
         </mxCell>
         <mxCell id="ptiIKL5mUzUop6q2zIbg-2" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Teknikal Code&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1040" width="680" height="640" as="geometry" />
+          <mxGeometry x="650" y="1030" width="920" height="640" as="geometry" />
         </mxCell>
         <mxCell id="ptiIKL5mUzUop6q2zIbg-3" value="Tab Data Umum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
-          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ptiIKL5mUzUop6q2zIbg-4" value="Tab Data Investor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
           <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ptiIKL5mUzUop6q2zIbg-5" value="Tab Data Kinerja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
           <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ptiIKL5mUzUop6q2zIbg-2" source="ptiIKL5mUzUop6q2zIbg-3" target="ptiIKL5mUzUop6q2zIbg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ptiIKL5mUzUop6q2zIbg-2" source="ptiIKL5mUzUop6q2zIbg-9" target="ptiIKL5mUzUop6q2zIbg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-9" value="Edit Pdam" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ptiIKL5mUzUop6q2zIbg-2" source="ptiIKL5mUzUop6q2zIbg-10" target="ptiIKL5mUzUop6q2zIbg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-10" value="_modal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="330" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-11" value="modal-upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="490" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="ptiIKL5mUzUop6q2zIbg-2" source="ptiIKL5mUzUop6q2zIbg-16" target="ptiIKL5mUzUop6q2zIbg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-16" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="190" y="300" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-17" value="- Data Pdam&lt;div&gt;- Data User&lt;/div&gt;&lt;div&gt;- Data Notifikasi Pengajuan&lt;/div&gt;&lt;div&gt;- Data Notifikasi Pengajuan Changes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="310" y="180" width="420" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
