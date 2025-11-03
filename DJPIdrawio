@@ -203,7 +203,7 @@
         <mxCell id="ptiIKL5mUzUop6q2zIbg-16" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
           <mxGeometry x="360" y="160" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ptiIKL5mUzUop6q2zIbg-17" value="- Data Pdam&lt;div&gt;- Data User [auth()-&amp;gt;user()]&lt;/div&gt;&lt;div&gt;- Data Notifikasi Pengajuan&lt;/div&gt;&lt;div&gt;- Data Notifikasi Pengajuan Changes&lt;/div&gt;&lt;div&gt;- Data Notifikasi Pengajuan Kategori&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-17" value="- Data Pdam = $view-&amp;gt;getData()[&#39;pdam&#39;]&lt;div&gt;- Data User = auth()-&amp;gt;user()&lt;/div&gt;&lt;div&gt;- Data Notifikasi Pengajuan&lt;/div&gt;&lt;div&gt;- Data Notifikasi Pengajuan Changes&lt;/div&gt;&lt;div&gt;- Data Notifikasi Pengajuan Kategori&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
           <mxGeometry x="480" y="40" width="420" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ptiIKL5mUzUop6q2zIbg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ptiIKL5mUzUop6q2zIbg-2" source="ptiIKL5mUzUop6q2zIbg-19" target="ptiIKL5mUzUop6q2zIbg-21">
