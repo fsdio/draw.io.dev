@@ -164,6 +164,9 @@
         <mxCell id="pz3xFAFKp2hY9h-Iw_1o-3" value="&lt;ul&gt;&lt;li&gt;Tambah Kolom Manage Proses Pengajuan&lt;/li&gt;&lt;li&gt;Data Ada Di User Pdam dan Admin Saat Edit&lt;/li&gt;&lt;li&gt;Data Ada Di menu Verifikasi Notifications&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1010" y="640" width="330" height="360" as="geometry" />
         </mxCell>
+        <mxCell id="ptiIKL5mUzUop6q2zIbg-2" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Teknikal Code&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1040" width="680" height="640" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
