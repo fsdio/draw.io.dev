@@ -165,7 +165,7 @@
           <mxGeometry x="1010" y="640" width="330" height="360" as="geometry" />
         </mxCell>
         <mxCell id="ptiIKL5mUzUop6q2zIbg-2" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Teknikal Code&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="680" y="1010" width="920" height="860" as="geometry" />
+          <mxGeometry x="680" y="1010" width="980" height="860" as="geometry" />
         </mxCell>
         <mxCell id="ptiIKL5mUzUop6q2zIbg-3" value="Tab Data Umum" style="rounded=0;whiteSpace=wrap;html=1;" parent="ptiIKL5mUzUop6q2zIbg-2" vertex="1">
           <mxGeometry x="170" y="400" width="120" height="60" as="geometry" />
