@@ -365,7 +365,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Mzru9g9cEqVMgks610IX" name="Import Data Kinerja">
-    <mxGraphModel dx="2253" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1883" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -378,7 +378,7 @@
           <mxGeometry x="-90" y="192.5" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jfwtp37Z-yBairNQJVmm-4" value="System by Web" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="155" width="1560" height="605" as="geometry" />
+          <mxGeometry x="30" y="150" width="1560" height="605" as="geometry" />
         </mxCell>
         <mxCell id="Jfwtp37Z-yBairNQJVmm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Jfwtp37Z-yBairNQJVmm-4" source="Jfwtp37Z-yBairNQJVmm-5" target="Jfwtp37Z-yBairNQJVmm-6">
           <mxGeometry relative="1" as="geometry" />
@@ -424,7 +424,7 @@
           <mxGeometry x="410" y="45" width="160" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Jfwtp37Z-yBairNQJVmm-15" value="PdamService.php&lt;br&gt;+ calculate()&lt;br&gt;+&amp;nbsp;updatePerformance($pdam, $year, $datas)&lt;br&gt;+&amp;nbsp;updatePerformanceValue($pdam, $year, $sumNilai)&lt;br&gt;+&amp;nbsp;updateIdleFcr($pdam, $year, $datas)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
-          <mxGeometry x="610" y="45" width="300" height="85" as="geometry" />
+          <mxGeometry x="650" y="45" width="300" height="85" as="geometry" />
         </mxCell>
         <mxCell id="Jfwtp37Z-yBairNQJVmm-17" value="CreditCapacityCommand.php" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
           <mxGeometry x="410" y="105" width="170" height="35" as="geometry" />
