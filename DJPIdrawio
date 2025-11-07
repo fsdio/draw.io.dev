@@ -383,14 +383,39 @@
         <mxCell id="Jfwtp37Z-yBairNQJVmm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Jfwtp37Z-yBairNQJVmm-4" source="Jfwtp37Z-yBairNQJVmm-5" target="Jfwtp37Z-yBairNQJVmm-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Jfwtp37Z-yBairNQJVmm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Jfwtp37Z-yBairNQJVmm-4" source="Jfwtp37Z-yBairNQJVmm-5" target="Jfwtp37Z-yBairNQJVmm-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="63" />
+              <mxPoint x="190" y="113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jfwtp37Z-yBairNQJVmm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Jfwtp37Z-yBairNQJVmm-4" source="Jfwtp37Z-yBairNQJVmm-5" target="Jfwtp37Z-yBairNQJVmm-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="63" />
+              <mxPoint x="190" y="173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Jfwtp37Z-yBairNQJVmm-5" value="PerformanceImport.php" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
           <mxGeometry x="40" y="45" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Jfwtp37Z-yBairNQJVmm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Jfwtp37Z-yBairNQJVmm-4" source="Jfwtp37Z-yBairNQJVmm-6" target="Jfwtp37Z-yBairNQJVmm-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jfwtp37Z-yBairNQJVmm-6" value="CalculatePerformanceJob.php" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
           <mxGeometry x="210" y="45" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Jfwtp37Z-yBairNQJVmm-8" value="CalculateCreditJob.php" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
           <mxGeometry x="210" y="95" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Jfwtp37Z-yBairNQJVmm-10" value="CalculateCreditAvgJob.php" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
+          <mxGeometry x="210" y="155" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Jfwtp37Z-yBairNQJVmm-13" value="PerformanceCommand.php" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
+          <mxGeometry x="410" y="45" width="210" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
