@@ -420,8 +420,8 @@
         <mxCell id="Jfwtp37Z-yBairNQJVmm-13" value="PerformanceCommand.php" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
           <mxGeometry x="410" y="45" width="160" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Jfwtp37Z-yBairNQJVmm-15" value="PdamService.php&lt;br&gt;+ calculate()" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
-          <mxGeometry x="610" y="45" width="110" height="35" as="geometry" />
+        <mxCell id="Jfwtp37Z-yBairNQJVmm-15" value="PdamService.php&lt;br&gt;+ calculate()&lt;br&gt;+&amp;nbsp;updatePerformance($pdam, $year, $datas)&lt;br&gt;+&amp;nbsp;updatePerformanceValue($pdam, $year, $sumNilai)&lt;br&gt;+&amp;nbsp;updateIdleFcr($pdam, $year, $datas)" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="Jfwtp37Z-yBairNQJVmm-4">
+          <mxGeometry x="610" y="45" width="300" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
