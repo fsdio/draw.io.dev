@@ -361,6 +361,31 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="W_cVSo1Ou9PyGrdYQd_P-2" value="Pengajuan Edit" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="200" y="1920" width="120" height="30" as="geometry">
+            <mxRectangle x="200" y="1920" width="200" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_cVSo1Ou9PyGrdYQd_P-9" value="Pengajuan Edit Terima" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="560" y="1920" width="160" height="30" as="geometry">
+            <mxRectangle x="360" y="1920" width="200" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_cVSo1Ou9PyGrdYQd_P-10" value="Pengajuan EditTolak" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="560" y="2000" width="160" height="30" as="geometry">
+            <mxRectangle x="200" y="1920" width="200" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_cVSo1Ou9PyGrdYQd_P-11" value="Pengajuan Terima" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="760" y="1920" width="150" height="30" as="geometry">
+            <mxRectangle x="360" y="1920" width="200" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W_cVSo1Ou9PyGrdYQd_P-12" value="Pengajuan Edit Proses" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="360" y="1920" width="160" height="30" as="geometry">
+            <mxRectangle x="200" y="1920" width="200" height="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
