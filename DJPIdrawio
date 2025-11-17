@@ -348,11 +348,17 @@
         <mxCell id="q_Fgut193AV0GOi1c1wE-7" value="controller terpisah?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
           <mxGeometry x="1280" y="110" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="q_Fgut193AV0GOi1c1wE-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ptiIKL5mUzUop6q2zIbg-2" source="q_Fgut193AV0GOi1c1wE-8" target="q_Fgut193AV0GOi1c1wE-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q_Fgut193AV0GOi1c1wE-8" value="controller approve" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
           <mxGeometry x="1280" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q_Fgut193AV0GOi1c1wE-47" value="dinamis cocok untuk pengajuan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
           <mxGeometry x="1280" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q_Fgut193AV0GOi1c1wE-48" value="+ approveDataUmum&lt;br&gt;+ approveDataInvestor&lt;br&gt;&lt;div&gt;+ approveDataKinerja&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="ptiIKL5mUzUop6q2zIbg-2">
+          <mxGeometry x="1440" y="210" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZfcoUHQYWADHmtroxdV--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZfcoUHQYWADHmtroxdV--19" target="2_ilMsj6A71cU6Y38QeN-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
