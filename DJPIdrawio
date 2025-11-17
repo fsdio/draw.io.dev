@@ -422,11 +422,26 @@
             <mxRectangle x="360" y="1920" width="200" height="200" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="q_Fgut193AV0GOi1c1wE-1" value="PDAM" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2120" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="q_Fgut193AV0GOi1c1wE-3" value="Pengubahan tercatat dipenyimpanan sementara" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="q_Fgut193AV0GOi1c1wE-1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q_Fgut193AV0GOi1c1wE-2" value="Admin" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2120" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="q_Fgut193AV0GOi1c1wE-4" value="Bisa edit langsung" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="q_Fgut193AV0GOi1c1wE-2">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q_Fgut193AV0GOi1c1wE-5" value="Update dari data pengajuan PDAM&lt;br&gt;(data JSON)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="q_Fgut193AV0GOi1c1wE-2">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Mzru9g9cEqVMgks610IX" name="Import Data Kinerja">
-    <mxGraphModel dx="1642" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3420" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
