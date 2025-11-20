@@ -455,7 +455,7 @@
         <mxCell id="q_Fgut193AV0GOi1c1wE-5" value="Update dari data pengajuan PDAM&lt;br&gt;(data JSON)" style="rounded=0;whiteSpace=wrap;html=1;" parent="q_Fgut193AV0GOi1c1wE-2" vertex="1">
           <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUheYHQBo4-LWoGWk9WF-1" value="Hal Yang Perlu Untuk Perkondisian:" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+        <mxCell id="gUheYHQBo4-LWoGWk9WF-1" value="Hal Yang Perlu Untuk Perkondisian:&lt;div&gt;- Cek admin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="1760" y="680" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
