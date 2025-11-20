@@ -455,8 +455,11 @@
         <mxCell id="q_Fgut193AV0GOi1c1wE-5" value="Update dari data pengajuan PDAM&lt;br&gt;(data JSON)" style="rounded=0;whiteSpace=wrap;html=1;" parent="q_Fgut193AV0GOi1c1wE-2" vertex="1">
           <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUheYHQBo4-LWoGWk9WF-1" value="Hal Yang Perlu Untuk Perkondisian:&lt;div&gt;- Cek admin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="680" width="430" height="60" as="geometry" />
+        <mxCell id="gUheYHQBo4-LWoGWk9WF-1" value="Hal Yang Perlu Untuk Perkondisian PDAM:&lt;div&gt;- Cek admin&lt;/div&gt;&lt;div&gt;- Cek status (terakhir)&lt;/div&gt;&lt;div&gt;- Kategori (terakhir)&lt;/div&gt;&lt;div&gt;- Tombol &quot;Ubah Data&quot; activate =&amp;gt; status(null, 3)&lt;/div&gt;&lt;div&gt;- Tombol &quot;Ubah Data&quot; deactivate =&amp;gt; status(2)&lt;/div&gt;&lt;div&gt;- Tombol &quot;Publikasi&quot; activate =&amp;gt; status(4,6)&lt;/div&gt;&lt;div&gt;- Tombol &quot;Publikasi&quot; deactive =&amp;gt; status(5, 7)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="680" width="290" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gUheYHQBo4-LWoGWk9WF-2" value="Hal Yang Perlu Ada Untuk Perkondisian:&lt;div&gt;-&amp;nbsp;$getCurrentNotificationsPengajuan&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="680" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
