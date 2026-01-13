@@ -94,40 +94,19 @@
           <mxGeometry height="30" width="140" y="30" as="geometry" />
         </mxCell>
         <mxCell id="uc_2XG1YL63JrPfcTVRA-19" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="10.10.1.59" vertex="1">
-          <mxGeometry height="180" width="180" x="-280" y="280" as="geometry" />
+          <mxGeometry height="90" width="220" x="-390" y="280" as="geometry" />
         </mxCell>
         <mxCell id="uc_2XG1YL63JrPfcTVRA-20" parent="uc_2XG1YL63JrPfcTVRA-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="/var/www/yaons-monev/.env" vertex="1">
-          <mxGeometry height="30" width="180" y="30" as="geometry" />
+          <mxGeometry height="30" width="220" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-21" parent="uc_2XG1YL63JrPfcTVRA-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="sshbe02" vertex="1">
-          <mxGeometry height="30" width="180" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-22" parent="uc_2XG1YL63JrPfcTVRA-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="sshmonev" vertex="1">
-          <mxGeometry height="30" width="180" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-23" parent="uc_2XG1YL63JrPfcTVRA-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="sshdb" vertex="1">
-          <mxGeometry height="30" width="180" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-24" parent="uc_2XG1YL63JrPfcTVRA-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="kong" vertex="1">
-          <mxGeometry height="30" width="180" y="150" as="geometry" />
+        <mxCell id="uc_2XG1YL63JrPfcTVRA-21" parent="uc_2XG1YL63JrPfcTVRA-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="/etc/nginx/sites-enabled/yaons-monev" vertex="1">
+          <mxGeometry height="30" width="220" y="60" as="geometry" />
         </mxCell>
         <mxCell id="uc_2XG1YL63JrPfcTVRA-25" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="10.10.1.96" vertex="1">
-          <mxGeometry height="180" width="140" x="-80" y="280" as="geometry" />
+          <mxGeometry height="60" width="140" x="-80" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-26" parent="uc_2XG1YL63JrPfcTVRA-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="sshbe01" vertex="1">
+        <mxCell id="uc_2XG1YL63JrPfcTVRA-26" parent="uc_2XG1YL63JrPfcTVRA-25" style="text;strokeColor=#B20000;fillColor=#e51400;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="/etc/mongod.conf" vertex="1">
           <mxGeometry height="30" width="140" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-27" parent="uc_2XG1YL63JrPfcTVRA-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="sshbe02" vertex="1">
-          <mxGeometry height="30" width="140" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-28" parent="uc_2XG1YL63JrPfcTVRA-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="sshmonev" vertex="1">
-          <mxGeometry height="30" width="140" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-29" parent="uc_2XG1YL63JrPfcTVRA-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="sshdb" vertex="1">
-          <mxGeometry height="30" width="140" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="uc_2XG1YL63JrPfcTVRA-30" parent="uc_2XG1YL63JrPfcTVRA-25" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="kong" vertex="1">
-          <mxGeometry height="30" width="140" y="150" as="geometry" />
         </mxCell>
         <mxCell id="uc_2XG1YL63JrPfcTVRA-33" edge="1" parent="1" source="uc_2XG1YL63JrPfcTVRA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uc_2XG1YL63JrPfcTVRA-19">
           <mxGeometry relative="1" as="geometry" />
