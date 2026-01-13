@@ -4,6 +4,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u8DhzvV2489mPMoPv-qB-7" edge="1" parent="1" source="u8DhzvV2489mPMoPv-qB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="u8DhzvV2489mPMoPv-qB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-10" edge="1" parent="1" source="u8DhzvV2489mPMoPv-qB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="u8DhzvV2489mPMoPv-qB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-11" edge="1" parent="1" source="u8DhzvV2489mPMoPv-qB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="u8DhzvV2489mPMoPv-qB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BE" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-5" edge="1" parent="1" source="u8DhzvV2489mPMoPv-qB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="u8DhzvV2489mPMoPv-qB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="FE" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-3" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MONGODB" vertex="1">
+          <mxGeometry height="70" width="100" x="400" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BE&lt;div&gt;(MONEV)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-6" edge="1" parent="1" source="u8DhzvV2489mPMoPv-qB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="u8DhzvV2489mPMoPv-qB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="MAIL_MAILER" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="u8DhzvV2489mPMoPv-qB-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BULOG" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
