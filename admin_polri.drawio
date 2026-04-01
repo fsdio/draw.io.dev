@@ -416,7 +416,7 @@
           <mxGeometry height="190" width="170" x="-860" y="-480" as="geometry" />
         </mxCell>
         <mxCell id="g2qVG6caIchOXoXH0TOZ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="760" width="760" x="-840" as="geometry" />
+          <mxGeometry height="310" width="760" x="-840" as="geometry" />
         </mxCell>
         <mxCell id="g2qVG6caIchOXoXH0TOZ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Technical Arsitecture" vertex="1">
           <mxGeometry height="30" width="760" x="-840" as="geometry" />
