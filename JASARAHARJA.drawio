@@ -48,7 +48,7 @@
         <mxCell id="NObM_3agfGgZoOqcl7ZK-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SERVER" vertex="1">
           <mxGeometry height="30" width="90" x="200" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="ein0WPYtMr3ZvDE1k-uj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HEADER&lt;div&gt;LINE&lt;br&gt;ATTACTMENT&lt;/div&gt;" vertex="1">
+        <mxCell id="ein0WPYtMr3ZvDE1k-uj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HEADER&lt;div&gt;LINE&lt;br&gt;attachment&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="40" y="120" as="geometry" />
         </mxCell>
         <mxCell id="NObM_3agfGgZoOqcl7ZK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
