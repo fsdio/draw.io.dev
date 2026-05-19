@@ -1851,10 +1851,71 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wonhhPoschMDqdbpnfTM" name="Sync Zimbra">
-    <mxGraphModel dx="1406" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="970" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="A8tixRbaNfAXDAyMNj16-16" edge="1" parent="1" source="A8tixRbaNfAXDAyMNj16-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="A8tixRbaNfAXDAyMNj16-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" value="" vertex="1">
+          <mxGeometry height="200" width="120" x="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-9" edge="1" parent="1" source="A8tixRbaNfAXDAyMNj16-2" style="edgeStyle=orthogonalEdgeStyle;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" target="A8tixRbaNfAXDAyMNj16-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="ZIMBRA" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="DB MAIL MANAGEMENT" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="Get" vertex="1">
+          <mxGeometry height="30" width="80" x="360" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="Post" vertex="1">
+          <mxGeometry height="30" width="80" x="360" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="Put" vertex="1">
+          <mxGeometry height="30" width="80" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Verdana;spacingLeft=10;fontColor=#0000CC;sketch=1;curveFitting=1;jiggle=2;" value="Scheduller" vertex="1">
+          <mxGeometry height="30" width="120" x="340" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-11" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Get&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="600" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-12" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Post&lt;/h1&gt;&lt;p&gt;host:{{mailSoapAdminUrl}}&lt;/p&gt;&lt;p&gt;name:99999999@polri.go.id&lt;/p&gt;&lt;p&gt;password:Asdf1234&lt;/p&gt;&lt;p&gt;givenName:Rahmat&lt;/p&gt;&lt;p&gt;sn:SUNJANI&lt;/p&gt;&lt;p&gt;displayName:RAHMAT SUNJANI&lt;/p&gt;&lt;p&gt;firstName:Rahmat&lt;/p&gt;&lt;p&gt;lastName:Sunjani&lt;/p&gt;&lt;p&gt;status:active&lt;/p&gt;&lt;p&gt;alias:{{mailboxAlias}}&lt;/p&gt;" vertex="1">
+          <mxGeometry height="360" width="220" x="320" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-13" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Put&lt;/h1&gt;&lt;p&gt;host:{{mailSoapAdminUrl}}&lt;/p&gt;&lt;p&gt;givenName:Jane&lt;/p&gt;&lt;p&gt;sn:Doe&lt;/p&gt;&lt;p&gt;displayName:Jane Doe&lt;/p&gt;&lt;p&gt;status:active&lt;/p&gt;&lt;p&gt;newPassword:asdf&lt;/p&gt;&lt;p&gt;dryRun:false&lt;/p&gt;&lt;p&gt;firstName:Jane&lt;/p&gt;&lt;p&gt;lastName:Doe&lt;/p&gt;&lt;p&gt;alias:{{mailboxAlias}}&lt;/p&gt;&lt;p&gt;removeAlias:{{mailboxOldAlias}}&lt;/p&gt;" vertex="1">
+          <mxGeometry height="360" width="240" x="80" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-17" edge="1" parent="1" source="A8tixRbaNfAXDAyMNj16-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="A8tixRbaNfAXDAyMNj16-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-19" connectable="0" parent="A8tixRbaNfAXDAyMNj16-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Get" vertex="1">
+          <mxGeometry relative="1" x="0.0121" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-20" edge="1" parent="1" source="A8tixRbaNfAXDAyMNj16-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="A8tixRbaNfAXDAyMNj16-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-21" connectable="0" parent="A8tixRbaNfAXDAyMNj16-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Post&lt;br&gt;(" vertex="1">
+          <mxGeometry relative="1" x="-0.5466" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="Zimbra Service" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-18" edge="1" parent="1" source="A8tixRbaNfAXDAyMNj16-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="A8tixRbaNfAXDAyMNj16-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8tixRbaNfAXDAyMNj16-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Verdana;sketch=1;curveFitting=1;jiggle=2;" value="User Service" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
