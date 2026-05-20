@@ -203,7 +203,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ILlpQRwjMquIZaD2t9KX" name="HIGH FLOW">
-    <mxGraphModel dx="846" dy="451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1696" dy="451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -254,6 +254,24 @@
         </mxCell>
         <mxCell id="UMBiTt1FIwDFNFkxnXiM-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Impact develoment&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dari sisi SATUDATA&lt;/div&gt;&lt;div&gt;- Hanya menambahkan Sub Langkah Tahapan (Sebagai pengganti&amp;nbsp;sequence dari sisi SIMPUL)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dari sisi SIMPUL&lt;/div&gt;&lt;div&gt;- Perlu melakukan concern mapping dengan acuan SATUDATA saat ini.&lt;/div&gt;&lt;div&gt;-&amp;nbsp;SATUDATA lebih modern dengan pendekatan API modular dan tracking lifecycle proyek yang lebih lengkap.&lt;/div&gt;&lt;div&gt;- Melakukan orchestration sisi API SIMPUL permudahan dalam tahapan mapping&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="519" x="26" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="SpUZeo74qvOX4VSFl6HI-4" edge="1" parent="1" source="SpUZeo74qvOX4VSFl6HI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UMBiTt1FIwDFNFkxnXiM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpUZeo74qvOX4VSFl6HI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SIMPUL&lt;div&gt;(DATABASE)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-120" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SpUZeo74qvOX4VSFl6HI-3" edge="1" parent="1" source="SpUZeo74qvOX4VSFl6HI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UMBiTt1FIwDFNFkxnXiM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpUZeo74qvOX4VSFl6HI-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;SATUDATA&lt;/div&gt;&lt;div&gt;(DATABASE)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-122" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="SpUZeo74qvOX4VSFl6HI-8" edge="1" parent="1" source="SpUZeo74qvOX4VSFl6HI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SpUZeo74qvOX4VSFl6HI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SpUZeo74qvOX4VSFl6HI-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Acuan dari excel tidak akses langsung database" vertex="1">
+          <mxGeometry height="30" width="131" x="-346" y="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
