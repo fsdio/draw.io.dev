@@ -8,7 +8,7 @@
           <mxGeometry height="324" width="240" x="40" y="80" as="geometry" />
         </mxCell>
         <mxCell id="6vO7IhVXHsVNPTlGRwwL-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="327" width="380" x="400" y="80" as="geometry" />
+          <mxGeometry height="356" width="418" x="400" y="80" as="geometry" />
         </mxCell>
         <mxCell id="6vO7IhVXHsVNPTlGRwwL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;&amp;nbsp; " vertex="1">
           <mxGeometry height="117" width="170" x="80" y="120" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry height="30" width="120" x="127" y="207" as="geometry" />
         </mxCell>
         <mxCell id="6vO7IhVXHsVNPTlGRwwL-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;&amp;nbsp; " vertex="1">
-          <mxGeometry height="105" width="320" x="440" y="120" as="geometry" />
+          <mxGeometry height="141" width="351" x="440" y="120" as="geometry" />
         </mxCell>
         <mxCell id="6vO7IhVXHsVNPTlGRwwL-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SATUDATA" vertex="1">
           <mxGeometry height="30" width="80" x="400" y="80" as="geometry" />
@@ -50,7 +50,7 @@
           <mxGeometry height="30" width="60" x="702" y="190" as="geometry" />
         </mxCell>
         <mxCell id="6vO7IhVXHsVNPTlGRwwL-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;&amp;nbsp; " vertex="1">
-          <mxGeometry height="102" width="320" x="440" y="280" as="geometry" />
+          <mxGeometry height="141" width="353" x="440" y="280" as="geometry" />
         </mxCell>
         <mxCell id="6vO7IhVXHsVNPTlGRwwL-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=10;" value="UNSOLICITED" vertex="1">
           <mxGeometry height="30" width="170" x="440" y="280" as="geometry" />
@@ -192,6 +192,12 @@
         </mxCell>
         <mxCell id="fEsqFxkK0OKu3aUTVaI8-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=10;" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Belum Ada Sub Langkah Tahapan /&amp;nbsp;sequence&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="263" x="1366" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HDxwMn12sunGXzhTPod7-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=10;" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Belum Ada Sub Langkah Tahapan /&amp;nbsp;sequence&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="263" x="523" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HDxwMn12sunGXzhTPod7-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=10;" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Belum Ada Sub Langkah Tahapan /&amp;nbsp;sequence&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="263" x="511" y="215" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
