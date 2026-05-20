@@ -247,7 +247,7 @@
           <mxGeometry height="40" width="675" x="26" y="448" as="geometry" />
         </mxCell>
         <mxCell id="UMBiTt1FIwDFNFkxnXiM-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Impact develoment&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dari sisi SATUDATA&lt;/div&gt;&lt;div&gt;- Hanya menambahkan Sub Langkah Tahapan (Sebagai pengganti&amp;nbsp;sequence dari sisi SIMPUL)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dari sisi SIMPUL&lt;/div&gt;&lt;div&gt;- Perlu melakukan concern mapping dengan acuan SATUDATA saat ini.&lt;/div&gt;&lt;div&gt;-&amp;nbsp;SATUDATA lebih modern dengan pendekatan API modular dan tracking lifecycle proyek yang lebih lengkap.&lt;/div&gt;&lt;div&gt;- Melakukan orchestration sisi API SIMPUL permudahan dalam tahapan mapping&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="519" x="26" y="488" as="geometry" />
+          <mxGeometry height="30" width="519" x="26" y="544" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
