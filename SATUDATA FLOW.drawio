@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="Page-1" id="erTulkvFtjn5UPXEJ7sv">
     <mxGraphModel dx="1692" dy="902" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -192,6 +192,62 @@
         </mxCell>
         <mxCell id="fEsqFxkK0OKu3aUTVaI8-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;spacingLeft=10;" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Belum Ada Sub Langkah Tahapan /&amp;nbsp;sequence&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="263" x="1366" y="302.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ILlpQRwjMquIZaD2t9KX" name="HIGH FLOW">
+    <mxGraphModel dx="846" dy="451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SIMPUL" vertex="1">
+          <mxGeometry height="30" width="60" x="23" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-5" edge="1" parent="1" source="UMBiTt1FIwDFNFkxnXiM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UMBiTt1FIwDFNFkxnXiM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SIMPUL&lt;div&gt;(BE)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="49" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ALL DATA&lt;div&gt;(TIDAK MODULAR / SEMUA DATA DITAMPILKAN)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="294" x="289" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SATUDATA" vertex="1">
+          <mxGeometry height="30" width="60" x="26" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-9" edge="1" parent="1" source="UMBiTt1FIwDFNFkxnXiM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UMBiTt1FIwDFNFkxnXiM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;SATUDATA&lt;/div&gt;&lt;div&gt;(BE)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="45" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-12" edge="1" parent="1" source="UMBiTt1FIwDFNFkxnXiM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UMBiTt1FIwDFNFkxnXiM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-13" edge="1" parent="1" source="UMBiTt1FIwDFNFkxnXiM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UMBiTt1FIwDFNFkxnXiM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-15" edge="1" parent="1" source="UMBiTt1FIwDFNFkxnXiM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UMBiTt1FIwDFNFkxnXiM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;SATUDATA&lt;/div&gt;&lt;div&gt;(FE)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="273" y="207" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;TIMELINE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="167" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;EXPORT PPT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="299" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;HISTORY TIMELINE&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="431" y="342" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-16" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Kesimpulan&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="675" x="26" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="UMBiTt1FIwDFNFkxnXiM-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Impact develoment&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dari sisi SATUDATA&lt;/div&gt;&lt;div&gt;- Hanya menambahkan Sub Langkah Tahapan (Sebagai pengganti&amp;nbsp;sequence dari sisi SIMPUL)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dari sisi SIMPUL&lt;/div&gt;&lt;div&gt;- Perlu melakukan concern mapping dengan acuan SATUDATA saat ini.&lt;/div&gt;&lt;div&gt;-&amp;nbsp;SATUDATA lebih modern dengan pendekatan API modular dan tracking lifecycle proyek yang lebih lengkap.&lt;/div&gt;&lt;div&gt;- Melakukan orchestration sisi API SIMPUL permudahan dalam tahapan mapping&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="519" x="26" y="488" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
