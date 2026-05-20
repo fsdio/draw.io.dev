@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="erTulkvFtjn5UPXEJ7sv">
-    <mxGraphModel dx="846" dy="1551" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1692" dy="902" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
           <mxGeometry height="30" width="160" x="78" y="296.5" as="geometry" />
         </mxCell>
         <mxCell id="fEsqFxkK0OKu3aUTVaI8-10" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Contoh Data&lt;/h1&gt;&lt;p&gt;SIMPUL lebih sederhana karena sebagian besar status tersimpan langsung pada tabel project (Catatan Development Mapping Dari SIMPUL) jika dari SATUDATA akan ada impact besar dari sisi integrasi data, database, hasil export, flow timeline berlangsung. Karena SIMPUL hanya masterdata harapannya dapat didevellopment untuk proses mapping data agar&amp;nbsp; impact tidak terlalu besar atau big bang changes.&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="760" x="850" y="-83" as="geometry" />
+          <mxGeometry height="120" width="760" x="891" y="387" as="geometry" />
         </mxCell>
         <mxCell id="fEsqFxkK0OKu3aUTVaI8-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
           <mxGeometry height="324" width="337" x="891" y="13" as="geometry" />
