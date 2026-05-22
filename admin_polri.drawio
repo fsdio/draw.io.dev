@@ -1851,7 +1851,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wonhhPoschMDqdbpnfTM" name="Sync Zimbra">
-    <mxGraphModel dx="970" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1172" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1965,6 +1965,9 @@
         </mxCell>
         <mxCell id="0oQRMbVppDCFcptBk0GQ-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="status_sync_zimbra&lt;div&gt;&amp;amp;&lt;br&gt;update timestamp_sync_zimbra&lt;/div&gt;" vertex="1">
           <mxGeometry height="230" width="250" x="280" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="0oQRMbVppDCFcptBk0GQ-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Catatan&lt;/h1&gt;&lt;p&gt;Selecct query nya harus yang tidak done dan timestamnya urutkan yang paling lama dulu&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="479.46" x="520.54" y="960" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
