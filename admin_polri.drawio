@@ -1973,7 +1973,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3lV0pn-oGDecNxX0ptvG" name="Page-9">
-    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1480" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2101,6 +2101,9 @@
         </mxCell>
         <mxCell id="rUJXFB65ytV5W1EyaBkm-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AUTH SERVICE" vertex="1">
           <mxGeometry height="60" width="120" x="20" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="RvfXF-LXbAQS-Erq0mBW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- Import&lt;div&gt;- Reset Password&amp;nbsp;Batch&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="440" x="10" y="830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
