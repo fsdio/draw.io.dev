@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="10">
   <diagram name="flow-app" id="XqosbjUoIenjFJBg-KbU">
     <mxGraphModel dx="1303" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2104,6 +2104,47 @@
         </mxCell>
         <mxCell id="RvfXF-LXbAQS-Erq0mBW-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- Import&lt;div&gt;- Reset Password&amp;nbsp;Batch&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="440" x="10" y="830" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YCpUcg-w6jXCW-mjlMiS" name="Halaman-10">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Excel&lt;br&gt;1. nrp&lt;div&gt;2. password&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-2" edge="1" parent="1" source="-mMyHIEKGRyVNN8HPm5h-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="-mMyHIEKGRyVNN8HPm5h-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SIPP&lt;div&gt;1. nama&lt;/div&gt;&lt;div&gt;2. tanggal_lahir&lt;/div&gt;&lt;div&gt;3. nrp&lt;/div&gt;&lt;div&gt;4. jabatan&lt;/div&gt;&lt;div&gt;5. pangkat&lt;/div&gt;&lt;div&gt;6. satuan1&lt;/div&gt;&lt;div&gt;7.satuan2&lt;/div&gt;&lt;div&gt;8. satuan3&lt;/div&gt;&lt;div&gt;9. pangkat_lengkap&lt;/div&gt;&lt;div&gt;10. email&lt;/div&gt;&lt;div&gt;11. phone&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="120" x="694" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-4" edge="1" parent="1" source="-mMyHIEKGRyVNN8HPm5h-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="-mMyHIEKGRyVNN8HPm5h-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DB&lt;div&gt;1. phone dan email (terisi otomatis kalo dari sipp gaada)&lt;/div&gt;&lt;div&gt;2. nama_tanpa_gelar&lt;/div&gt;&lt;div&gt;3. nama_pendek_dengan_gelar&lt;br&gt;4. first_name&lt;/div&gt;&lt;div&gt;5. last_name&lt;/div&gt;&lt;div&gt;6.sipp_satker_id&lt;/div&gt;&lt;div&gt;7. satker_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="170" x="930" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-6" edge="1" parent="1" source="-mMyHIEKGRyVNN8HPm5h-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-mMyHIEKGRyVNN8HPm5h-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Zimbra&lt;div&gt;1. ZimbraAccountStatus (default aktif terisi)&lt;/div&gt;&lt;div&gt;2. displayName = nama_lengkap&lt;/div&gt;&lt;div&gt;3. mail = email&lt;/div&gt;&lt;div&gt;4. userPassword = password&lt;/div&gt;&lt;div&gt;5. zimbraMailAlias (default kosong)&lt;/div&gt;&lt;div&gt;6. zimbraMailHost (otomatis sistem zimbra)&lt;/div&gt;&lt;div&gt;7. zimbraMailDeliveryAddress = email = mail&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="200" x="1180" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data yang dimiliki&lt;br&gt;1. nrp&lt;div&gt;2. password&lt;/div&gt;&lt;div&gt;3. nama&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. tanggal_lahir&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. jabatan&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;6. pangkat&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;7. satuan1 - satuan3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;8. pangkat_lengkap&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;9. email&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;10. phone&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="310" x="510" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Belum ada data di db atau zimbra" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DB&lt;div&gt;1. zimbra_mail_host&lt;/div&gt;&lt;div&gt;2. zimbra_last_password_change&lt;/div&gt;&lt;div&gt;3. zimbra_last_login&lt;br&gt;4. zimbra_mail_delivery_address&lt;/div&gt;&lt;div&gt;5. zimbra_account_status&lt;/div&gt;&lt;div&gt;6.zimbra_id&lt;/div&gt;&lt;div&gt;7. timestamp_sync_zimbra&lt;/div&gt;&lt;div&gt;8.&amp;nbsp;status_sync_zimbra&lt;/div&gt;&lt;div&gt;9.&amp;nbsp;email_aliases&lt;/div&gt;&lt;div&gt;10. nrp&lt;/div&gt;&lt;div&gt;11. name&lt;/div&gt;&lt;div&gt;12. email&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="320" x="1120" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="-mMyHIEKGRyVNN8HPm5h-11" edge="1" parent="1" source="-mMyHIEKGRyVNN8HPm5h-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.02;entryY=0.158;entryDx=0;entryDy=0;entryPerimeter=0;" target="-mMyHIEKGRyVNN8HPm5h-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
