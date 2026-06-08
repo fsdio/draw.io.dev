@@ -2157,8 +2157,11 @@
         <mxCell id="JMKipD8OVyml0_ZY70_O-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- Data User Up To Date (SIPP -&amp;gt; DB -&amp;gt; Zimbra)" vertex="1">
           <mxGeometry height="30" width="320" x="40" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="JMKipD8OVyml0_ZY70_O-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Manage User Zimbra (Scalable oleh satu pihak contoh Admin Satker Buat Ganti Password, Tambah User Secara Bulk)&lt;br&gt;User ingin otomatis datanya selalu up to date dari sipp -&amp;gt; zimbra&lt;div&gt;Monitoring anggota clasifikasi satker (optimize)&lt;br&gt;Clasification Auth Hanya Satker Tertentu (New)&lt;/div&gt;&lt;div&gt;Setting Kata Sandi (Exist)&lt;/div&gt;&lt;div&gt;Notification Pensiun dan Kata Sandi (Exist)&lt;/div&gt;" vertex="1">
+        <mxCell id="JMKipD8OVyml0_ZY70_O-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Manage User Zimbra (Scalable oleh satu pihak contoh Admin Satker Buat Ganti Password, Tambah User Secara Bulk)&lt;br&gt;User ingin otomatis datanya selalu up to date dari sipp -&amp;gt; zimbra&lt;div&gt;Monitoring anggota clasifikasi satker (optimize)&lt;/div&gt;&lt;div&gt;Akses Role (Super Admin, Admin Pusat, Anggota)&lt;br&gt;Clasification Auth Hanya Satker Tertentu (New)&lt;/div&gt;&lt;div&gt;Setting Kata Sandi (Exist)&lt;/div&gt;&lt;div&gt;Notification Pensiun dan Kata Sandi (Exist)&lt;/div&gt;" vertex="1">
           <mxGeometry height="320" width="680" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j88FEvPkvGNEM7Kq_8lv-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="type (magang)" vertex="1">
+          <mxGeometry height="30" width="60" x="760" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
