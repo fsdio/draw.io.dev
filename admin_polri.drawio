@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="11">
   <diagram name="flow-app" id="XqosbjUoIenjFJBg-KbU">
     <mxGraphModel dx="1303" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2145,6 +2145,20 @@
         </mxCell>
         <mxCell id="-mMyHIEKGRyVNN8HPm5h-11" edge="1" parent="1" source="-mMyHIEKGRyVNN8HPm5h-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.02;entryY=0.158;entryDx=0;entryDy=0;entryPerimeter=0;" target="-mMyHIEKGRyVNN8HPm5h-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DDixQotT6J4A0Ck60uC8" name="Page-11">
+    <mxGraphModel dx="1406" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JMKipD8OVyml0_ZY70_O-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- Data User Up To Date (SIPP -&amp;gt; DB -&amp;gt; Zimbra)" vertex="1">
+          <mxGeometry height="30" width="320" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JMKipD8OVyml0_ZY70_O-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="Manage User Zimbra (Scalable oleh satu pihak contoh Admin Satker Buat Ganti Password, Tambah User Secara Bulk)&lt;br&gt;User ingin otomatis datanya selalu up to date dari sipp -&amp;gt; zimbra&lt;div&gt;Monitoring anggota clasifikasi satker (optimize)&lt;br&gt;Clasification Auth Hanya Satker Tertentu (New)&lt;/div&gt;&lt;div&gt;Setting Kata Sandi (Exist)&lt;/div&gt;&lt;div&gt;Notification Pensiun dan Kata Sandi (Exist)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="320" width="680" x="80" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
