@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" pages="2">
   <diagram name="Halaman-1" id="ARC54t--W6GdPF1o5cvZ">
     <mxGraphModel dx="680" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1038,6 +1038,431 @@
         </mxCell>
         <mxCell id="vy3_53uyWSwb81BTKhAe-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vy3_53uyWSwb81BTKhAe-298" target="vy3_53uyWSwb81BTKhAe-260">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J3oHNpOMgeuYqjTMZEjA" name="Flow Seal">
+    <mxGraphModel dx="1488" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Client" vertex="1">
+          <mxGeometry height="3829" width="150" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Middleware&#xa;(AppAuthService)" vertex="1">
+          <mxGeometry height="3829" width="150" x="299" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Signer Controller" vertex="1">
+          <mxGeometry height="3829" width="150" x="499" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="RateLimiterRepo&#xa;(DB)" vertex="1">
+          <mxGeometry height="3829" width="150" x="831" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TotpSealRepo&#xa;(DB)" vertex="1">
+          <mxGeometry height="3829" width="150" x="1031" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="EsignRepo" vertex="1">
+          <mxGeometry height="3829" width="150" x="1231" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="BSrE API" vertex="1">
+          <mxGeometry height="3829" width="150" x="1488" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Ceph" vertex="1">
+          <mxGeometry height="3829" width="150" x="1688" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-9" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="98" width="501" x="84" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-10" parent="gEV9ZhxnPN-4ETpv2Ai2-9" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[dalam 2 detik]" vertex="1">
+          <mxGeometry height="20" width="471" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-11" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="98" width="501" x="84" y="2728" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-12" parent="gEV9ZhxnPN-4ETpv2Ai2-11" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[OTP expired / not found]" vertex="1">
+          <mxGeometry height="20" width="471" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-13" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="98" width="501" x="84" y="2918" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-14" parent="gEV9ZhxnPN-4ETpv2Ai2-13" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[hash mismatch]" vertex="1">
+          <mxGeometry height="20" width="471" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-15" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="262" width="1323" x="451" y="3026" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-16" parent="gEV9ZhxnPN-4ETpv2Ai2-15" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[fileId ada &amp; file tidak di body]" vertex="1">
+          <mxGeometry height="20" width="1293" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-17" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-2" value="POST /seal/get/activation&#xa;{idSubscriber}&#xa;Headers: app_id, app_key">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-18" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-2" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-2" value="Validasi app_id + app_key ke 3scale">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="270" />
+              <mxPoint x="425" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-19" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-1" value="401 jika invalid">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-20" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Lanjut ke Controller">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="343" y="404" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-21" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-4" value="getLastEpoch(idSubscriber)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="749" y="456" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-22" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="lastEpoch">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="752" y="508" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-23" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-1" value="429 Too Many Requests">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="606" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-24" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-4" value="setEpoch(idSubscriber, now)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="749" y="668" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-25" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Generate requestId (UUID)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="720" />
+              <mxPoint x="625" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-26" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-7" value="POST /seal/get/activation&#xa;{idSubscriber, requestId}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1077" y="823" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-27" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-7" style="curved=1;dashed=1;dashPattern=2 3;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-7" value="Kirim email OTP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1614" y="875" />
+              <mxPoint x="1614" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-28" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Response">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="957" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-29" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="enhanceResponseWithFileInfo()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="1009" />
+              <mxPoint x="625" y="1039" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-30" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-1" value="200 {status, traceId, data}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="1091" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-31" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-2" value="POST /seal/get/activation&#xa;{idSubscriber, totp, requestId}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="1213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-32" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-2" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-2" value="Validasi app_id + app_key">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="1265" />
+              <mxPoint x="425" y="1295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-33" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Lanjut ke Controller">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="343" y="1347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-34" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-4" value="Rate limit check (sama seperti Fase 1)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="749" y="1399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-35" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Validasi: totp = 6 digits">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="1451" />
+              <mxPoint x="625" y="1481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-36" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Validasi: requestId wajib">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="1533" />
+              <mxPoint x="625" y="1563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-37" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="salt = UUID.random()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="1615" />
+              <mxPoint x="625" y="1645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-38" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="otpHash = SHA-256(totp + salt)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="1697" />
+              <mxPoint x="625" y="1727" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-39" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-5" value="INSERT tte_totp&#xa;5 menit expiry">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="849" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-40" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="totpId (UUID)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="852" y="1852" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-41" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-7" value="POST /seal/get/activation (forward)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1077" y="1904" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-42" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Response">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="1956" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-43" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-1" value="200 {totpId, ...}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="2008" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-44" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-2" value="POST /seal/pdf&#xa;Headers: app_id, app_key,&#xa;Authorization: Bearer JWT">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="2151" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-45" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-2" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-2" value="Validasi app_id + app_key ke 3scale">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="2203" />
+              <mxPoint x="425" y="2233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-46" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-1" value="401 jika invalid">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="246" y="2285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-47" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Lanjut ke Controller">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="343" y="2337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-48" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Validasi JWT (extract subscriberId)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="2389" />
+              <mxPoint x="625" y="2419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-49" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Parse SealPdfRequest&#xa;{totpId, totpCode, fileId, file}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="2492" />
+              <mxPoint x="625" y="2522" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-50" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Validasi totpCode format (6 digit)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="2574" />
+              <mxPoint x="625" y="2604" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-51" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-5" value="findById(totpId)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="849" y="2656" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-52" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="TotpSeal{otpHash, salt, expiresAt}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="852" y="2708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-53" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-1" value="400 OTP not found or expired">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="2806" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-54" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="SHA-256(totpCode + salt)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="2868" />
+              <mxPoint x="625" y="2898" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-55" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-1" value="401 Invalid OTP code">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="2996" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-56" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-8" value="downloadBytes(fileId)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1177" y="3104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-57" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="bytes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="3156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-58" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="encode base64 → inject ke body">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="3208" />
+              <mxPoint x="625" y="3238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-59" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-6" value="seal(jsonBody, appId, fileId, nomor)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="949" y="3330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-60" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-6" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-6" value="✅ INSERT logs&#xa;✅ INSERT signing_status_aggregate&#xa;✅ INSERT signing_message_aggregate">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1357" y="3424" />
+              <mxPoint x="1357" y="3454" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-61" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-7" value="POST /seal/pdf (with retry)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1443" y="3506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-62" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-6" value="Response">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1446" y="3558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-63" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="Response">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="952" y="3610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-64" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="curved=1;endArrow=block;rounded=0;" target="gEV9ZhxnPN-4ETpv2Ai2-3" value="enhanceResponseWithFileInfo()">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="3662" />
+              <mxPoint x="625" y="3692" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-65" edge="1" parent="1" source="gEV9ZhxnPN-4ETpv2Ai2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="gEV9ZhxnPN-4ETpv2Ai2-1" value="200 {status, traceId, data}">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="3744" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-66" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="═══════ FASE 1: REQUEST OTP ═══════" vertex="1">
+          <mxGeometry height="49" width="1518" x="70" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-67" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="═══════ FASE 2: SUBMIT OTP ═══════" vertex="1">
+          <mxGeometry height="49" width="1518" x="70" y="1111" as="geometry" />
+        </mxCell>
+        <mxCell id="gEV9ZhxnPN-4ETpv2Ai2-68" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="═══════ FASE 3: SEAL PDF ═══════" vertex="1">
+          <mxGeometry height="49" width="1518" x="70" y="2028" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
