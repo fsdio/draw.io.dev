@@ -1468,277 +1468,182 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ho_0fcl4fj0dkVAgViQQ" name="Page-3">
-    <mxGraphModel dx="1664" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1891" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Client" vertex="1">
-          <mxGeometry height="2009" width="150" x="20" y="20" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="📄 FASE 3 — SEAL PDF" vertex="1">
+          <mxGeometry height="1800" width="640" x="20" y="1512" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Middleware" vertex="1">
-          <mxGeometry height="2009" width="150" x="270" y="20" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-2" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Client kirim POST /seal/pdf&#xa;             Header: app_id + app_key + Authorization JWT&#xa;             Body: { totpId, totpCode }" vertex="1">
+          <mxGeometry height="174" width="260" x="198" y="46" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Controller" vertex="1">
-          <mxGeometry height="2009" width="150" x="470" y="20" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-3" parent="8MRcLYv8PIksCcy5jr1s-1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Pilih sumber file:" vertex="1">
+          <mxGeometry height="177" width="177" x="240" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Rate Limit DB" vertex="1">
-          <mxGeometry height="2009" width="150" x="670" y="20" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-4" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Mode A: file_id di body&#xa;             → System download dari Ceph&#xa;             → Encode ke base64" vertex="1">
+          <mxGeometry height="150" width="260" x="43" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="TOTP DB" vertex="1">
-          <mxGeometry height="2009" width="150" x="870" y="20" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-5" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Mode B: file (base64[]) di body&#xa;             → Langsung diproses" vertex="1">
+          <mxGeometry height="126" width="260" x="353" y="582" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="EsignRepo" vertex="1">
-          <mxGeometry height="2009" width="150" x="1070" y="20" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-6" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Verifikasi OTP:&#xa;             SHA-256(totpCode + salt) == otp_hash?" vertex="1">
+          <mxGeometry height="102" width="260" x="198" y="795" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="BSrE API" vertex="1">
-          <mxGeometry height="2009" width="150" x="1270" y="20" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-7" parent="8MRcLYv8PIksCcy5jr1s-1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="OTP Sesuai?" vertex="1">
+          <mxGeometry height="138" width="138" x="259" y="972" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Ceph" vertex="1">
-          <mxGeometry height="2009" width="150" x="1470" y="20" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-8" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="✅ Lanjut ke BSrE /seal/pdf" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="1209" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-9" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="opt" vertex="1">
-          <mxGeometry height="150" width="1022" x="534" y="1484" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-9" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="❌ Return 401 Invalid OTP" vertex="1">
+          <mxGeometry height="54" width="250" x="360" y="1221" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-10" parent="PqOP50yzPf_HP2SZcXh2-9" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[fileId ada]" vertex="1">
-          <mxGeometry height="20" width="992" x="30" as="geometry" />
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-10" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="BSrE proses Tanda Tangan Elektronik" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="1362" as="geometry" />
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-11" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-2" value="POST /seal/get/activation">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-11" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Simpan audit log ke DB&#xa;             (logs + signing_status_aggregate)" vertex="1">
+          <mxGeometry height="102" width="260" x="43" y="1515" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-12" parent="8MRcLYv8PIksCcy5jr1s-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Response: 200 — PDF sudah di-sign" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="1692" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-13" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-14" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-4" value="file_id">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="229" y="176" />
+              <mxPoint x="173" y="521" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-12" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-1" value="401 if invalid">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-15" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-5" value="file">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="232" y="228" />
+              <mxPoint x="483" y="521" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-13" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-16" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.16;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-6" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="329" y="238" />
+              <mxPoint x="173" y="758" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-14" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-4" value="Rate limit check">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-17" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.84;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-6" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="654" y="290" />
+              <mxPoint x="483" y="758" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-15" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-7" value="Forward {idSubscriber, requestId}">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-18" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-19" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-7" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.88;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-8" value="Ya">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="954" y="342" />
+              <mxPoint x="173" y="1160" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-16" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-7" style="curved=1;dashed=1;dashPattern=2 3;endArrow=block;rounded=0;" target="PqOP50yzPf_HP2SZcXh2-7" value="Kirim email OTP">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-20" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-7" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.88;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-9" value="Tidak">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1396" y="394" />
-              <mxPoint x="1396" y="424" />
+              <mxPoint x="485" y="1160" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-17" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="Response">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-21" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-10" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="957" y="476" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-18" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-1" value="200 OK">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-22" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-11" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="332" y="528" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-19" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-2" value="POST /seal/get/activation">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-23" edge="1" parent="8MRcLYv8PIksCcy5jr1s-1" source="8MRcLYv8PIksCcy5jr1s-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-12" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="229" y="629" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-20" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-1" value="401 if invalid">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="🔑 FASE 2 — SUBMIT OTP" vertex="1">
+          <mxGeometry height="708" width="330" x="175" y="754" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-25" parent="8MRcLYv8PIksCcy5jr1s-24" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Client kirim POST /seal/get/activation&#xa;             Body: { idSubscriber, totp, requestId }&#xa;             Header: app_id + app_key" vertex="1">
+          <mxGeometry height="198" width="260" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-26" parent="8MRcLYv8PIksCcy5jr1s-24" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Hash OTP: SHA-256(totp + random salt)" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-27" parent="8MRcLYv8PIksCcy5jr1s-24" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Simpan ke DB (tte_totp) — expired 5 menit" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="472" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-28" parent="8MRcLYv8PIksCcy5jr1s-24" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Response: 200 { totpId }" vertex="1">
+          <mxGeometry height="54" width="231" x="58" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-29" edge="1" parent="8MRcLYv8PIksCcy5jr1s-24" source="8MRcLYv8PIksCcy5jr1s-25" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-26" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="232" y="681" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-21" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-30" edge="1" parent="8MRcLYv8PIksCcy5jr1s-24" source="8MRcLYv8PIksCcy5jr1s-26" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-27" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="329" y="691" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-22" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="curved=1;endArrow=block;rounded=0;" target="PqOP50yzPf_HP2SZcXh2-3" value="Hash SHA-256(totp + salt)">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-31" edge="1" parent="8MRcLYv8PIksCcy5jr1s-24" source="8MRcLYv8PIksCcy5jr1s-27" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-28" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="596" y="743" />
-              <mxPoint x="596" y="773" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-23" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-5" value="INSERT tte_totp">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="📧 FASE 1 — REQUEST OTP" vertex="1">
+          <mxGeometry height="684" width="330" x="175" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-33" parent="8MRcLYv8PIksCcy5jr1s-32" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Client kirim POST /seal/get/activation&#xa;             Body: { idSubscriber }&#xa;             Header: app_id + app_key" vertex="1">
+          <mxGeometry height="174" width="260" x="43" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-34" parent="8MRcLYv8PIksCcy5jr1s-32" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="System buat requestId (UUID)" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-35" parent="8MRcLYv8PIksCcy5jr1s-32" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Forward ke BSrE — mereka kirim email OTP" vertex="1">
+          <mxGeometry height="78" width="260" x="43" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-36" parent="8MRcLYv8PIksCcy5jr1s-32" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Response: 200 OK" vertex="1">
+          <mxGeometry height="54" width="186" x="80" y="601" as="geometry" />
+        </mxCell>
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-37" edge="1" parent="8MRcLYv8PIksCcy5jr1s-32" source="8MRcLYv8PIksCcy5jr1s-33" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-34" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="754" y="825" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-24" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="totpId">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-38" edge="1" parent="8MRcLYv8PIksCcy5jr1s-32" source="8MRcLYv8PIksCcy5jr1s-34" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-35" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="757" y="877" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-25" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-7" value="Forward">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-39" edge="1" parent="8MRcLYv8PIksCcy5jr1s-32" source="8MRcLYv8PIksCcy5jr1s-35" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-36" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="954" y="929" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-26" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="Response">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-40" edge="1" parent="1" source="8MRcLYv8PIksCcy5jr1s-32" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-24" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="957" y="981" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-27" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-1" value="200 {totpId}">
+        <mxCell id="8MRcLYv8PIksCcy5jr1s-41" edge="1" parent="1" source="8MRcLYv8PIksCcy5jr1s-24" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="8MRcLYv8PIksCcy5jr1s-1" value="">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="332" y="1033" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-28" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-2" value="POST /seal/pdf">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="229" y="1134" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-29" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-1" value="401 if invalid">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="232" y="1186" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-30" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="329" y="1196" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-31" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="curved=1;endArrow=block;rounded=0;" target="PqOP50yzPf_HP2SZcXh2-3" value="Validasi JWT">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="596" y="1248" />
-              <mxPoint x="596" y="1278" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-32" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-5" value="findById(totpId)">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="754" y="1330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-33" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="TotpSeal">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="757" y="1382" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-34" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="curved=1;endArrow=block;rounded=0;" target="PqOP50yzPf_HP2SZcXh2-3" value="Verifikasi SHA-256">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="596" y="1434" />
-              <mxPoint x="596" y="1464" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-35" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-8" value="download file">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1054" y="1562" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-36" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-8" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="bytes">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1057" y="1614" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-37" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-6" value="seal()">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="854" y="1676" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-38" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-6" style="curved=1;endArrow=block;rounded=0;" target="PqOP50yzPf_HP2SZcXh2-6" value="INSERT logs">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1196" y="1728" />
-              <mxPoint x="1196" y="1758" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-39" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-7" value="POST /seal/pdf">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1254" y="1810" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-40" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-6" value="Response">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1257" y="1862" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-41" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-3" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="857" y="1872" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-42" edge="1" parent="1" source="PqOP50yzPf_HP2SZcXh2-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="PqOP50yzPf_HP2SZcXh2-1" value="200 OK">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="332" y="1924" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-43" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="FASE 1: REQUEST OTP" vertex="1">
-          <mxGeometry height="49" width="1300" x="70" y="95" as="geometry" />
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-44" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="FASE 2: SUBMIT OTP" vertex="1">
-          <mxGeometry height="49" width="1300" x="70" y="548" as="geometry" />
-        </mxCell>
-        <mxCell id="PqOP50yzPf_HP2SZcXh2-45" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;fontColor=light-dark(#333333,#cccccc);" value="FASE 3: SEAL PDF" vertex="1">
-          <mxGeometry height="49" width="1300" x="70" y="1053" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
