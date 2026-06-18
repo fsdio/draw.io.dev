@@ -3781,7 +3781,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b-9DCplzcZiRgQA79l5h" name="Flow SKCK">
-    <mxGraphModel dx="1052" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1520" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4139,7 +4139,7 @@
         </mxCell>
         <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart TD\n    A[Client] --&gt;|GET /files-skck/{fileId}| B[MainController.findById]\n    B --&gt; C[Parse fileId → UUID]\n    C --&gt; D{Valid UUID?}\n    D --&gt;|No| E[400 Bad Request]\n    D --&gt;|Yes| F[repository.findById(fileId)]\n    F --&gt; G{File found?}\n    G --&gt;|No| H[404 Not Found]\n    G --&gt;|Yes| I[Load relasi:\\n- fileComments\\n- fileSigningRequests\\n- fileSigningReminders\\n- fileSignatures\\n- fileSigningRejected\\n- skckDocuments]\n    I --&gt; J[Return FileDetailResponse]\n\n    style E fill:#f88\n    style H fill:#f88\n    style J fill:#8f8&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="cU5TCm0ruV9yWfOMrVZp-57">
           <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=20;" vertex="1">
-            <mxGeometry as="geometry" />
+            <mxGeometry height="1170" width="2718" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Client" mermaidId="n:A" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Client" id="cU5TCm0ruV9yWfOMrVZp-58">
@@ -4184,12 +4184,12 @@
         </UserObject>
         <UserObject label="Load relasi:&#xa;- fileComments&#xa;- fileSigningRequests&#xa;- fileSigningReminders&#xa;- fileSignatures&#xa;- fileSigningRejected&#xa;- skckDocuments" mermaidId="n:I" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Load relasi:&#xa;- fileComments&#xa;- fileSigningRequests&#xa;- fileSigningReminders&#xa;- fileSignatures&#xa;- fileSigningRejected&#xa;- skckDocuments" id="cU5TCm0ruV9yWfOMrVZp-66">
           <mxCell parent="cU5TCm0ruV9yWfOMrVZp-57" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="1025" x="1673" y="978" as="geometry" />
+            <mxGeometry height="172" width="290" x="2050" y="978" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Return FileDetailResponse" mermaidId="n:J" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#8f8;strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Return FileDetailResponse" id="cU5TCm0ruV9yWfOMrVZp-67">
           <mxCell parent="cU5TCm0ruV9yWfOMrVZp-57" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#8f8;strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
-            <mxGeometry height="54" width="247" x="2062" y="1082" as="geometry" />
+            <mxGeometry height="54" width="247" x="2062" y="1200" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="GET /files-skck/{fileId}" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="GET /files-skck/{fileId}" id="cU5TCm0ruV9yWfOMrVZp-68">
@@ -4257,9 +4257,10 @@
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:I-&gt;J#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;" mermaidBaseValue="" id="cU5TCm0ruV9yWfOMrVZp-76">
-          <mxCell edge="1" parent="cU5TCm0ruV9yWfOMrVZp-57" source="cU5TCm0ruV9yWfOMrVZp-66" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="cU5TCm0ruV9yWfOMrVZp-67">
+          <mxCell edge="1" parent="cU5TCm0ruV9yWfOMrVZp-57" source="cU5TCm0ruV9yWfOMrVZp-66" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;" target="cU5TCm0ruV9yWfOMrVZp-67">
             <mxGeometry relative="1" as="geometry">
               <Array as="points" />
+              <mxPoint x="2185.5" y="1310" as="sourcePoint" />
             </mxGeometry>
           </mxCell>
         </UserObject>
