@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" pages="5">
   <diagram name="Halaman-1" id="ARC54t--W6GdPF1o5cvZ">
     <mxGraphModel dx="680" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4574,7 +4574,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="cU5TCm0ruV9yWfOMrVZp-121" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;Sign Flow&lt;/font&gt;" vertex="1">
+        <mxCell id="cU5TCm0ruV9yWfOMrVZp-121" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-size: 38px;&quot;&gt;Basis Data&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="950" x="4400" y="40" as="geometry" />
         </mxCell>
         <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;erDiagram\n    logs {\n        char36 id PK\n        timestamp created_at\n        varchar255 nrp\n        integer status_code\n        varchar255 message\n        varchar255 app_id\n        uuid file_id\n    }\n\n    skck_documents {\n        uuid document_id PK\n        text key PK\n        text value\n    }\n\n    file_signatures {\n        uuid id PK\n        uuid file_id\n        varchar255 user_id\n        varchar255 signature_name\n        text signed_file\n        boolean bsre_signed\n        varchar type_signed\n        bigint size\n        timestamp created_at\n        timestamp updated_at\n    }\n\n    files {\n        uuid id PK\n        uuid folder_id\n        varchar255 user_id\n        varchar255 user_name\n        text name\n        varchar visibility\n        text file\n        bigint size\n        timestamp created_at\n        timestamp updated_at\n    }\n\n    signing_status_aggregate {\n        uuid id PK\n        date date\n        varchar status\n        integer total\n    }\n\n    signing_message_aggregate {\n        uuid id PK\n        date date\n        varchar message\n        integer total\n    }&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="cU5TCm0ruV9yWfOMrVZp-122">
@@ -5295,6 +5295,17 @@
           <mxGeometry height="43" width="43" x="204" as="geometry">
             <mxRectangle height="43" width="43" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e4onen-JXVAQNQoH1Ijm" name="Flow EPPNS">
+    <mxGraphModel dx="1368" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oxO0nA2w7B4sgQM_cRiw-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;Sign Flow&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="950" x="240" y="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
