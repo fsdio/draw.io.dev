@@ -1641,7 +1641,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ho_0fcl4fj0dkVAgViQQ" name="Flow SKCK">
-    <mxGraphModel dx="6840" dy="4680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2280" dy="2127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2647,7 +2647,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="5C2CKzYaWCP_pC3gi9ix-155" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;Sign Flow&lt;/font&gt;" vertex="1">
+        <mxCell id="5C2CKzYaWCP_pC3gi9ix-155" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 38px;&quot;&gt;Seal Flow&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="950" x="5290" y="-30" as="geometry" />
         </mxCell>
         <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;sequenceDiagram\n    participant Client\n    participant Signer as tte-signer-service\n    participant 3scale as 3scale API\n    participant BSRE as BSRE eSign API\n    participant DB as PostgreSQL\n\n    Note over Client,Signer: === TOTP Activation ===\n    Client-&gt;&gt;Signer: POST /seal/get/activation + app_key\n    Signer-&gt;&gt;3scale: Verify app_key\n    3scale--&gt;&gt;Signer: OK\n    Signer-&gt;&gt;DB: Check rate_limiter (subscriber_id)\n    DB--&gt;&gt;Signer: OK\n    Signer-&gt;&gt;Signer: Generate OTP + salt + hash\n    Signer-&gt;&gt;DB: INSERT tte_totp (subscriber_id, hash, salt, ...)\n    Signer--&gt;&gt;Client: { totpId }\n\n    Note over Client,Signer: === Seal PDF ===\n    Client-&gt;&gt;Signer: POST /seal/pdf + JWT + {totpId, totpCode}\n    Signer-&gt;&gt;3scale: Verify app_key\n    3scale--&gt;&gt;Signer: OK\n    Signer-&gt;&gt;DB: SELECT tte_totp WHERE subscriber_id\n    DB--&gt;&gt;Signer: OTP record\n    Signer-&gt;&gt;Signer: SHA-256(totpCode + salt) == otp_hash?\n    Signer-&gt;&gt;BSRE: POST /seal/pdf\n    BSRE--&gt;&gt;Signer: Seal result\n    Signer-&gt;&gt;DB: DELETE tte_totp (used)\n    Signer-&gt;&gt;DB: INSERT INTO logs\n    Signer--&gt;&gt;Client: Response&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="5C2CKzYaWCP_pC3gi9ix-156">
