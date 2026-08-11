@@ -1887,7 +1887,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VFiVhNFcgTjzHTIj26dM-196" parent="VFiVhNFcgTjzHTIj26dM-178" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Cek Expire 3 Hari - 1 Jam" vertex="1">
+        <mxCell id="VFiVhNFcgTjzHTIj26dM-196" parent="VFiVhNFcgTjzHTIj26dM-178" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font&gt;Cek Expire &amp;gt; 72 Jam&lt;/font&gt;" vertex="1">
           <mxGeometry height="100" width="103" x="56" y="290" as="geometry" />
         </mxCell>
         <mxCell id="VFiVhNFcgTjzHTIj26dM-215" parent="VFiVhNFcgTjzHTIj26dM-178" style="rounded=0;whiteSpace=wrap;html=1;" value="Request Sealing OTP" vertex="1">
