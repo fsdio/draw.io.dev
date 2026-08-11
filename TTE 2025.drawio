@@ -1807,8 +1807,8 @@
         <mxCell id="VFiVhNFcgTjzHTIj26dM-119" parent="VFiVhNFcgTjzHTIj26dM-115" style="rounded=0;whiteSpace=wrap;html=1;" value="/seal/get/activation" vertex="1">
           <mxGeometry height="20" width="120" x="40" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="VFiVhNFcgTjzHTIj26dM-167" parent="VFiVhNFcgTjzHTIj26dM-115" style="rounded=0;whiteSpace=wrap;html=1;" value="/seal/get/activation" vertex="1">
-          <mxGeometry height="20" width="120" x="40" y="230" as="geometry" />
+        <mxCell id="VFiVhNFcgTjzHTIj26dM-167" parent="VFiVhNFcgTjzHTIj26dM-115" style="rounded=0;whiteSpace=wrap;html=1;" value="Refresh TOTP (Activation)&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;/api/v2&lt;/span&gt;/seal/get/activation&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="25" y="220" as="geometry" />
         </mxCell>
         <mxCell id="VFiVhNFcgTjzHTIj26dM-116" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Signer Service" vertex="1">
           <mxGeometry height="310" width="200" x="480" y="-840" as="geometry" />
