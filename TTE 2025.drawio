@@ -1816,8 +1816,8 @@
         <mxCell id="VFiVhNFcgTjzHTIj26dM-117" parent="VFiVhNFcgTjzHTIj26dM-116" style="rounded=0;whiteSpace=wrap;html=1;" value="Request TOTP (Activation)" vertex="1">
           <mxGeometry height="20" width="150" x="25" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="VFiVhNFcgTjzHTIj26dM-129" parent="VFiVhNFcgTjzHTIj26dM-116" style="rounded=0;whiteSpace=wrap;html=1;" value="Save TOTP" vertex="1">
-          <mxGeometry height="20" width="120" x="40" y="190" as="geometry" />
+        <mxCell id="VFiVhNFcgTjzHTIj26dM-129" parent="VFiVhNFcgTjzHTIj26dM-116" style="rounded=0;whiteSpace=wrap;html=1;" value="Save TOTP (Activation)" vertex="1">
+          <mxGeometry height="20" width="135" x="40" y="190" as="geometry" />
         </mxCell>
         <mxCell id="VFiVhNFcgTjzHTIj26dM-118" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="DB Signer" vertex="1">
           <mxGeometry height="310" width="200" x="680" y="-840" as="geometry" />
